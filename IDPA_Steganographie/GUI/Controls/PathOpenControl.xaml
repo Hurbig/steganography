@@ -1,0 +1,40 @@
+﻿<UserControl x:Name="userControl" x:Class="IDPA_Steganographie.GUI.Controls.PathOpenControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:helper="clr-namespace:IDPA_Steganographie.HelperClasses"
+             mc:Ignorable="d" HorizontalAlignment="Left" VerticalAlignment="Top">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../../Files/FlatToolbarButton.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="PathBox" IsReadOnly="True"
+                 FontSize="12" MouseDoubleClick="_PathBoxMouseDoubleClick"
+                 Grid.Column="0" Grid.ColumnSpan="2" 
+                 MinWidth="200" Padding="0,0,23,0" Text="{Binding Text, ElementName=userControl}"/>
+
+        <Button Margin="3" Focusable="False"
+            Grid.Column="1" IsEnabled="False"
+            Background="Transparent"
+            HorizontalAlignment="Right" 
+            HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Style="{DynamicResource FlatToolbarButtonStyle}"
+                Name="DeleteButton" Command="{Binding ClearTextCommand, ElementName=userControl, Mode=OneWay}">
+            <Button.Content>
+                <Image Source="../../Files/Icons/cross.png" 
+                                   Width="16" 
+                                   Height="16"/>
+            </Button.Content>
+        </Button>
+        <Button Grid.Column="2" Content=". . ." MinWidth="30" Focusable="False" Margin="3,0,0,0" Command="{Binding DialogOpenerCommand, ElementName=userControl, Mode=OneWay}" />
+    </Grid>
+</UserControl>

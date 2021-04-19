@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDPA_Steganographie", "IDPA_Steganographie\IDPA_Steganographie.csproj", "{58E1E5EC-52E6-412F-8878-42DD5A763BC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDPA_Steganographie_Test", "IDPA_Steganographie_Test\IDPA_Steganographie_Test.csproj", "{0C9BD2E4-6CDB-448D-803E-E394A008608D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteganographieLogicLibrary", "SteganographieLogicLibrary\SteganographieLogicLibrary.csproj", "{4D3C795A-CA2E-41EE-B8E1-E17C45B18F02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steganographie_Errors", "Steganographie_Errors\Steganographie_Errors.csproj", "{EEA08C6A-6FC2-4738-B7FD-943EAD71F195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDPA_Steganographie_New", "IDPA_Steganographie_New\IDPA_Steganographie_New.csproj", "{EE26EBF4-67FE-41C3-930A-566F5DFB01F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginInterface", "PluginInterface\PluginInterface.csproj", "{76A8A286-52C0-4751-AADE-F2CDED0989E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuiltInPlugins", "BuiltInPlugins\BuiltInPlugins.csproj", "{3BF5AEC0-EF0F-46E8-8D25-9FE024EB2AF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58E1E5EC-52E6-412F-8878-42DD5A763BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E1E5EC-52E6-412F-8878-42DD5A763BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E1E5EC-52E6-412F-8878-42DD5A763BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E1E5EC-52E6-412F-8878-42DD5A763BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9BD2E4-6CDB-448D-803E-E394A008608D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9BD2E4-6CDB-448D-803E-E394A008608D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9BD2E4-6CDB-448D-803E-E394A008608D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9BD2E4-6CDB-448D-803E-E394A008608D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3C795A-CA2E-41EE-B8E1-E17C45B18F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D3C795A-CA2E-41EE-B8E1-E17C45B18F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D3C795A-CA2E-41EE-B8E1-E17C45B18F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D3C795A-CA2E-41EE-B8E1-E17C45B18F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEA08C6A-6FC2-4738-B7FD-943EAD71F195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA08C6A-6FC2-4738-B7FD-943EAD71F195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA08C6A-6FC2-4738-B7FD-943EAD71F195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA08C6A-6FC2-4738-B7FD-943EAD71F195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE26EBF4-67FE-41C3-930A-566F5DFB01F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE26EBF4-67FE-41C3-930A-566F5DFB01F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE26EBF4-67FE-41C3-930A-566F5DFB01F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE26EBF4-67FE-41C3-930A-566F5DFB01F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76A8A286-52C0-4751-AADE-F2CDED0989E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A8A286-52C0-4751-AADE-F2CDED0989E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A8A286-52C0-4751-AADE-F2CDED0989E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A8A286-52C0-4751-AADE-F2CDED0989E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BF5AEC0-EF0F-46E8-8D25-9FE024EB2AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BF5AEC0-EF0F-46E8-8D25-9FE024EB2AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BF5AEC0-EF0F-46E8-8D25-9FE024EB2AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BF5AEC0-EF0F-46E8-8D25-9FE024EB2AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mignet-tfs.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = IDPA_Steganographie\\IDPA_Steganographie.csproj
+		SccProjectName1 = IDPA_Steganographie
+		SccLocalPath1 = IDPA_Steganographie
+		SccProjectUniqueName2 = IDPA_Steganographie_Test\\IDPA_Steganographie_Test.csproj
+		SccProjectName2 = IDPA_Steganographie_Test
+		SccLocalPath2 = IDPA_Steganographie_Test
+		SccProjectUniqueName3 = SteganographieLogicLibrary\\SteganographieLogicLibrary.csproj
+		SccProjectName3 = SteganographieLogicLibrary
+		SccLocalPath3 = SteganographieLogicLibrary
+		SccProjectUniqueName4 = Steganographie_Errors\\Steganographie_Errors.csproj
+		SccProjectName4 = Steganographie_Errors
+		SccLocalPath4 = Steganographie_Errors
+		SccProjectUniqueName5 = IDPA_Steganographie_New\\IDPA_Steganographie_New.csproj
+		SccProjectName5 = IDPA_Steganographie_New
+		SccLocalPath5 = IDPA_Steganographie_New
+		SccProjectUniqueName6 = PluginInterface\\PluginInterface.csproj
+		SccProjectName6 = PluginInterface
+		SccLocalPath6 = PluginInterface
+		SccProjectUniqueName7 = BuiltInPlugins\\BuiltInPlugins.csproj
+		SccProjectName7 = BuiltInPlugins
+		SccLocalPath7 = BuiltInPlugins
+	EndGlobalSection
+EndGlobal

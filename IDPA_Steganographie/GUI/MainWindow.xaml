@@ -1,0 +1,18 @@
+﻿<Controls:MetroWindow x:Class="IDPA_Steganographie.GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gui="clr-namespace:IDPA_Steganographie.GUI"
+        xmlns:menuBar="clr-namespace:IDPA_Steganographie.GUI.MenuBar"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Title="IDPA-Steganographie Projekt" Width="800" Height="530">
+    <Window.Background>
+        <RadialGradientBrush>
+            <GradientStop Color="#FF383838" Offset="1"/>
+            <GradientStop Color="#FF4D4D4D"/>
+        </RadialGradientBrush>
+    </Window.Background>
+    <ContentControl Name="ContentHolder" />
+</Controls:MetroWindow>
