@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDPA_Steganographie", "IDPA_Steganographie\IDPA_Steganographie.csproj", "{58E1E5EC-52E6-412F-8878-42DD5A763BC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDPA_Steganographie_Test", "IDPA_Steganographie_Test\IDPA_Steganographie_Test.csproj", "{0C9BD2E4-6CDB-448D-803E-E394A008608D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteganographieLogicLibrary", "SteganographieLogicLibrary\SteganographieLogicLibrary.csproj", "{4D3C795A-CA2E-41EE-B8E1-E17C45B18F02}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steganographie_Errors", "Steganographie_Errors\Steganographie_Errors.csproj", "{EEA08C6A-6FC2-4738-B7FD-943EAD71F195}"
@@ -25,10 +23,6 @@ Global
 		{58E1E5EC-52E6-412F-8878-42DD5A763BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58E1E5EC-52E6-412F-8878-42DD5A763BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58E1E5EC-52E6-412F-8878-42DD5A763BC3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0C9BD2E4-6CDB-448D-803E-E394A008608D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C9BD2E4-6CDB-448D-803E-E394A008608D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C9BD2E4-6CDB-448D-803E-E394A008608D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0C9BD2E4-6CDB-448D-803E-E394A008608D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4D3C795A-CA2E-41EE-B8E1-E17C45B18F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4D3C795A-CA2E-41EE-B8E1-E17C45B18F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D3C795A-CA2E-41EE-B8E1-E17C45B18F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
