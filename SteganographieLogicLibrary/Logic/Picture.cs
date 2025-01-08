@@ -6,7 +6,7 @@ using Steganographie.Logic.Image;
 
 namespace Steganographie.Logic.Logic
 {
-    internal class Picture : IDisposable
+    public class Picture : IDisposable
     {
         private Bitmap _image;
         private BitmapData _imageData;
