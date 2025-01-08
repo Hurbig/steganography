@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginInterface", "PluginIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuiltInPlugins", "BuiltInPlugins\BuiltInPlugins.csproj", "{3BF5AEC0-EF0F-46E8-8D25-9FE024EB2AF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDPA_Steganographie_Tests", "IDPA_Steganographie_Tests\IDPA_Steganographie_Tests.csproj", "{CF79606B-33E6-4ABD-83EC-EDA5E701F6EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3BF5AEC0-EF0F-46E8-8D25-9FE024EB2AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BF5AEC0-EF0F-46E8-8D25-9FE024EB2AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BF5AEC0-EF0F-46E8-8D25-9FE024EB2AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF79606B-33E6-4ABD-83EC-EDA5E701F6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF79606B-33E6-4ABD-83EC-EDA5E701F6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF79606B-33E6-4ABD-83EC-EDA5E701F6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF79606B-33E6-4ABD-83EC-EDA5E701F6EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
